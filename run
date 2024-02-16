@@ -1,0 +1,10 @@
+#!/bin/bash
+
+shopt -s expand_aliases
+. .telebot_aliases
+
+if [ $# -eq 1 ]; then
+eval $1
+else
+echo "no command"
+fi

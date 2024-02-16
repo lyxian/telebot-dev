@@ -1,0 +1,8 @@
+# telebot commands
+alias Shutdown='echo "Shutting down..." && sudo shutdown -h now'
+alias Reboot='echo "Rebooting..." && sudo reboot'
+
+alias led-off='echo 0 | sudo tee /sys/class/leds/ACT/brightness'
+alias led-on='echo 255 | sudo tee /sys/class/leds/ACT/brightness'
+
+alias test='echo test'
